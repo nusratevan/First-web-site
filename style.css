@@ -2,6 +2,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
     padding: 0px;
+    
 }
 h1{
     font-size: 50px;
@@ -44,6 +45,10 @@ section{
     border-radius: 5px;
     height: 80%;
 }
+.exprience-area h2{
+    margin-left: 30px; 
+    font-size:45px;
+}
 .exprience-area{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
@@ -63,4 +68,78 @@ section{
 footer p{
     text-align: center;
 }
-
+@media(max-width:1029px){
+    #full-stack h2{
+        font-size: 27px;
+     }
+     #full-stack h3{
+         font-size: 18px;
+     }
+     #full-stack p{
+         font-size: 15px;
+     }
+     #baby-web h2{
+        font-size: 27px;
+    }
+    #baby-web h3{
+        font-size: 18px;
+    }
+    #baby-web p{
+        font-size: 15px;
+    }
+    footer p{
+        font-size: 13px;
+    }
+}
+@media(max-width:568px){
+    .half-width h1{
+        font-size: 17px;
+        line-height: 20px;   
+    }
+    .half-width h3{
+        font-size: 15px;
+    }
+    .half-width p{
+        font-size: 10px;
+    }
+    .link-button{
+        font-size: 7px;
+    }
+    .top-banner{
+        margin-bottom: -150px;
+    }
+    .exprience-area h2{
+        font-size: 17px;
+    }
+    .middle-section{
+        margin-bottom: -120px;
+    }
+    #full-stack h2{
+       font-size: 10px;
+       margin: auto;
+       margin-top: 10px;
+    }
+    #full-stack h3{
+        font-size: 7px;
+    }
+    #full-stack p{
+        font-size: 5px;
+    }
+    #baby-web h2{
+        font-size: 10px;
+        margin: auto;
+        margin-top: 10px;
+    }
+    #baby-web h3{
+        font-size: 7px;
+    }
+    #baby-web p{
+        font-size: 5px;
+    }
+    .single-exprience{
+        height: 130px;
+    }
+    footer p{
+        font-size: 5px;
+    }
+}
